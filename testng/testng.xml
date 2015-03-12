@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite_MyGradle" parallel="false">
+    <parameter name="" value=""/>
+    <test name="Test_1" preserve-order="true">
+        <parameter name="" value=""/>
+        <classes>
+            <class name="hq.test.TestClassA">
+                <methods>
+                    <include name="testA" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
